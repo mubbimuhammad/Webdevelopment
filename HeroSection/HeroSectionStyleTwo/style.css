@@ -1,0 +1,50 @@
+/* blurring the image */
+.gfg {
+    filter: blur(3px);
+    width: 100%;
+    height: 100vh;
+}
+
+/* designing title and tag line */
+.logo {
+    display:block ;
+    text-align: center;
+    position: absolute;
+    font-size: 21px;
+    top: 51px;
+    padding: 100px;
+}
+
+h1 {
+    border: 4px solid white;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+
+h2, p {
+   display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Designing button */
+.logo button {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer
+    
+}
+
+.logo button:hover {
+    background-color: green;
+    color: white;
+}
