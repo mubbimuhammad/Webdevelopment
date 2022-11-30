@@ -1,11 +1,14 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 #NavBar {
     position: fixed;
     top: 0;
+    
     width: 100%;
     background-color: rgb(113, 113, 176);
     overflow: hidden;
@@ -28,13 +31,15 @@
     top: 0;
     width: 100%;
   }
-  
+  .para {
+    margin-top: 60px;
+  }
   p {
-    padding-top: 100px;
-    display: flex;
+    display: block;
     font-size: 50px;
+    margin-top: 50px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
    border: 4px solid black;
    margin: 0px 0px 10px 0px;
   }

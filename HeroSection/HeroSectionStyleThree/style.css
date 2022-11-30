@@ -6,13 +6,13 @@
 
 .container{
     background: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1480&t=st=1669809354~exp=1669809954~hmac=3b290df8d95d499fc7136a68e6c753fd1dd5321513e9ca4ed9f7798b6ece578e);
-
+    position: fixed;
     display: flex;
     width: 100%;
     background-color: #346e90;
     background-position: center;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
 }
 
 .btn{
@@ -95,6 +95,7 @@
 
 .form{
     display: block;
+    overflow: hidden;
     width: 250px;
     height: 331px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);

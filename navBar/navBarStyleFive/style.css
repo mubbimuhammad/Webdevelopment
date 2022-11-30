@@ -41,12 +41,12 @@ body {
 }
 
 .wrapper .sidebar ul li a {
-    color: #bdb8d7;
+    color: #f1f0f8;
     display: block;
 }
 
 .wrapper .sidebar ul li:hover {
-    background-color: #594f8d;
+    background-color: #b3aeca;
 }
 
 .wrapper .sidebar ul li:hover a {
@@ -60,14 +60,17 @@ body {
 
 .wrapper .main_content .header {
     padding: 20px;
-    background: #fff;
-    color: #717171;
+    background: rgb(0, 0, 0);
+    color: #c19a9a;
     border-bottom: 1px solid #e0e4e8;
 }
 
 .wrapper .main_content .info {
-    margin: 20px;
-    color: #717171;
+    background-color: rgb(233, 236, 244);
+    margin: 0px;
+    display: block;
+    height: 100vh;
+    color: #000000;
     line-height: 25px;
 }
 
