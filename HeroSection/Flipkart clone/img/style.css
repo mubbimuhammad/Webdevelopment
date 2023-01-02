@@ -1,0 +1,12 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* header section */
+
+.hero-section{
+    background: url('./hero.png') no-repeat;
+    background-size: cover;
+}
